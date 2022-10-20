@@ -1,7 +1,7 @@
 {{-- hereda del componenete layout --}}
-<x-app-layout>
+{{-- <x-app-layout>
  hola jajaj
-</x-app-layout>
+</x-app-layout> --}}
 
 
 

@@ -18,9 +18,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Storage::deleteDirectory('public\post');
+        Storage::deleteDirectory('public\posts');
         // creamos la carpeta donde se descargaran las imagenes falsas de faker, esta esta en el factory IMAGEFACTORY
-        Storage::makeDirectory('public\post');
+        Storage::makeDirectory('public\posts');
         $this->call(UserSeeder::class);
         Category::factory(4)->create();
         Tag::factory(8)->create();
